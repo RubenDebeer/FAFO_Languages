@@ -1,6 +1,10 @@
 const numbers = [7,2,9,6,4];
 //const numbers = [5,6,1,3];
 
+// Outer Loops 4 
+// Inner Loops 3
+
+
 for( let i = 0 ; i < numbers.length; i++){
     
     for( let j = 0 ; j < numbers.length; j++){
@@ -13,7 +17,7 @@ for( let i = 0 ; i < numbers.length; i++){
     }
 }
 
-console.log(numbers);
+// console.log(numbers);
 
 // [7,2,9,6,4]
 // Pass 1 (i = 0)

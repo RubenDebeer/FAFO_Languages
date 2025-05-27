@@ -161,7 +161,7 @@ Use this template to systematically learn and document any programming language.
 
 ### 🔃 Sorting
 
-- [ ] Bubble Sort
+- [x] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
@@ -170,7 +170,7 @@ Use this template to systematically learn and document any programming language.
 ---
 ### 🔍 Searching
 
-- [ ] Linear Search
+- [x] Linear Search
 - [ ] Binary Search
 - [ ] Depth-First Search (DFS)
 - [ ] Breadth-First Search (BFS)

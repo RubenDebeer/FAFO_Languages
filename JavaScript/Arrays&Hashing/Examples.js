@@ -59,20 +59,18 @@ if(Employees.has("Drikus")){
 // Deleting Elements
 Employees.delete("Geraard");
 
-
-
 // ################## Looping ##################
 // For Loop 
 for(let i = 0; i < cars.length(),i++;){
     console.log(cars[i]);
 }
 
-// For In Loop  --> Can be use for objects   --> for (key  in  object) (Best Suited for Objects)
+// For In Loop --> Accesses the Key   --> Can be use for objects   --> for (key  in  object) (Best Suited for Objects) So if used with array it will be the index
 for( number in numbers){
     console.log(number);
 }
 
-// For Of Loop --> Can be use for Iterable objects   --> for (key  of  object) ( best Suited for Arrays, Maps, Sets)
+// For Of Loop --> Accesses the value  --> Can be use for Iterable objects   --> for (key  of  object) ( best Suited for Arrays, Maps, Sets) Remember a array is a Object in js 
 for (car of cars){
     console.log(car);
 }

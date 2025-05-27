@@ -1,0 +1,19 @@
+// If the number in an array appears more than once. 
+// Input: nums = [1, 2, 3, 3]
+// Input: nums = [1, 2, 3, 4]
+
+const hasDuplicated = (numbers) => {
+    let unique_numbers = new Set()
+
+    for( number of numbers){
+        console.log(number)
+       if(unique_numbers.has(number)){
+        return true
+       }else{
+        unique_numbers.add(number);
+       }
+    }
+    return false;
+}
+
+console.log(hasDuplicated(nums));

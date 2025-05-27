@@ -14,7 +14,6 @@ Use this template to systematically learn and document any programming language.
 ---
 
 ## 🔡 Data Types
-
 ### 🧊 Primitive
 - [ ] Integer
 - [ ] Float / Double
@@ -158,6 +157,25 @@ Use this template to systematically learn and document any programming language.
 - [ ] Hoisting
 
 ---
+## 🧠 Algorithms
+
+### 🔃 Sorting
+
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+
+---
+### 🔍 Searching
+
+- [ ] Linear Search
+- [ ] Binary Search
+- [ ] Depth-First Search (DFS)
+- [ ] Breadth-First Search (BFS)
+- [ ] Hash-based Lookup
+--- 
 
 ## ✅ Language-Specific Quick Reference
 

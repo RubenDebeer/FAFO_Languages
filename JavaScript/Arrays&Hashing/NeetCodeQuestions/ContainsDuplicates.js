@@ -6,7 +6,6 @@ const hasDuplicated = (numbers) => {
     let unique_numbers = new Set()
 
     for( number of numbers){
-        console.log(number)
        if(unique_numbers.has(number)){
         return true
        }else{

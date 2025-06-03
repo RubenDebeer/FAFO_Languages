@@ -3,7 +3,6 @@
 const numbers = [1,2,3,4,5,6,7,8];
 const cars = ["Toyota","Fiat","Ford","BMW","Audi","Mercedes"];
 
-
 // For Loop 
 for(let i = 0; i < cars.length(),i++;){
     console.log(cars[i]);
@@ -14,7 +13,7 @@ for( number in numbers){
     console.log(number);
 }
 
-// For Of Loop --> Accesses the value (value)
+// For Of Loop --> Accesses the Value (value)
 for (car of cars){
     console.log(car);
 }

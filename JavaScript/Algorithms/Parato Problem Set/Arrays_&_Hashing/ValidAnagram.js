@@ -10,9 +10,9 @@
 
 // Length word 1 !== Length of word 2 
 
-const isAnagram = (s,t) => {
+const isAnagram = (s, t) => {
 
-    if ( s.length !== t.length) return false
+    if (s.length !== t.length) return false
 
     const s_Sort = s.split("").sort().join("");
     const t_Sort = t.split("").sort().join("");
@@ -20,22 +20,20 @@ const isAnagram = (s,t) => {
     return s_Sort == t_Sort;
 }
 
-const isAnagram2 = (s,t) => {
-    if ( s.length !== t.length) return false;
+const isAnagram2 = (s, t) => {
+    if (s.length !== t.length) return false;
 
     const charCount = {};
 
-    for(char of s){
+    for (char of s) {
         charCount[char] = (charCount[char] || 0) + 1;
     }
 
-    for( char of t ){
-        if(!charCount[char]) return false;
+    // This will iterate over the first sting and count the Number of time the character appears in the string 
+    for (char of t) {
+        if (!charCount[char]) return false;
         charCount[char]--
     }
 
     return true;
 }
-
-
-

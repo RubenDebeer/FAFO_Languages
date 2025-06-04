@@ -5,12 +5,12 @@
 const hasDuplicated = (numbers) => {
     let unique_numbers = new Set()
 
-    for( number of numbers){
-       if(unique_numbers.has(number)){
-        return true
-       }else{
-        unique_numbers.add(number);
-       }
+    for (number of numbers) {
+        if (unique_numbers.has(number)) {
+            return true
+        } else {
+            unique_numbers.add(number);
+        }
     }
     return false;
 }

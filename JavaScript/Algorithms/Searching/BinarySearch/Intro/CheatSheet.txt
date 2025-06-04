@@ -1,0 +1,7 @@
+Can you define a function that turns a True to a false or a false to a true as the number increase ?
+
+Yes BS 
+
+Are you Searching for a specific element ? 
+Yes --> Vanilla BS 
+No --> Boundary BS

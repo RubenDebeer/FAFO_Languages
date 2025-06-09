@@ -1,6 +1,6 @@
 // When: 
 // - Can I define a YES/NO function that turns from NO to YES (or YES to NO) as a number increases?
-// - Use BS whenever you make a BInary decision  to shrink the search range.
+// - Use BS whenever you make a BInary decision to shrink the search range.
 // - Use when yu want to short-circuit and return as soon as it finds the target.
 
 // How: 
@@ -9,6 +9,7 @@
 // Implementation: 
 
 // [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15]
+//  F  F  F  F  F           F   T   T   T   T   T   T
 //  L                       M                       R
 const binary_search = (numbers,target) => {
 

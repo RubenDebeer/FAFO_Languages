@@ -17,6 +17,7 @@
 
 // Implementation:
 // [30, 40, 50, 10, 20]
+//  F    F   F   T   F  
 //  L       M        R
 
 let findMin = (elements) => {
@@ -24,13 +25,13 @@ let findMin = (elements) => {
     let right = elements.length - 1;
     let index = -1;
 
-    while(left <= right){
-        let mid = left + Math.floor((right-left)/2);
+    while (left <= right) {
+        let mid = left + Math.floor((right - left) / 2);
 
-        if(elements[mid] <= elements[elements.length-1]){
+        if (elements[mid] <= elements[elements.length - 1]) {
             index = mid;
             right = mid - 1;
-        }else{
+        } else {
             left = mid + 1;
         }
     }

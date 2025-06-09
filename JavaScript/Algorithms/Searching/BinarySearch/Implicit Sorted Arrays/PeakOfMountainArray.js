@@ -2,6 +2,8 @@
 // Feasible function  arr[i] > arr[i+1]
 // F F F T F F F
 
+// posi > posi P1
+
 const findPeak = ( elements ) => {
     let left = 0; 
     let right = elements.length-1;
@@ -25,3 +27,4 @@ let arra = [0,1,2,3,2,1,0];
 console.log(findPeak([10, 20, 15, 2, 23, 90, 67]));
 
 console.log(arra[2]);
+

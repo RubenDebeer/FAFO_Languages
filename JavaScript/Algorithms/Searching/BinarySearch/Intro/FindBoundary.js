@@ -36,3 +36,32 @@ const findBoundary = (values) => {
     // If no earliest boundary was found we return the default value.
     return boundary_index;
 }
+
+
+//[false, false, false, true, true, true]
+// L       M                           R 
+// Feasible Function
+
+
+const elements_1 = [false, false, false, true, true, true];
+const findFirstTrue = (elements) => {
+
+    let left = 0; 
+    let right = elements.length - 1; 
+    let found_index = -1;
+
+    while( left <= right){
+
+        let mid = left + Math.floor((right-left)/2);
+
+        if(elements[mid] === true){
+            found_index = mid;
+            right = mid -1
+        }else{
+            left = mid + 1;
+        }
+    }
+    return found_index;
+}
+
+console.log(findFirstTrue(elements_1));

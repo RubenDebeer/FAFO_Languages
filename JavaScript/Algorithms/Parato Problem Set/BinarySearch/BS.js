@@ -6,14 +6,13 @@ const search = (numbers, target) => {
     while (left <= right) {
 
         let middle = left + Math.floor((right - left) / 2);
-        //      [-1,0,2,4,6,8]
+        //[-1,0,2,4,6,8]
         if (numbers[middle] > target) right = middle - 1;
         if (numbers[middle] < target) {
             left = middle + 1;
         } else {
             return middle
         }
-
     }
     return -1
 }

@@ -37,11 +37,9 @@ const findBoundary = (values) => {
     return boundary_index;
 }
 
-
 //[false, false, false, true, true, true]
 // L       M                           R 
 // Feasible Function
-
 
 const elements_1 = [false, false, false, true, true, true];
 const findFirstTrue = (elements) => {

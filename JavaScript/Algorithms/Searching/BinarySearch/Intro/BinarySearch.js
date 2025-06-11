@@ -32,3 +32,6 @@ const binary_search = (numbers,target) => {
     }
     return -1;
 }
+
+
+// lett mid = left+Math.Floor((r-l)/2)

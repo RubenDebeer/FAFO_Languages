@@ -26,7 +26,6 @@ const cars = ["Toyota","Fiat","Ford","BMW","Audi","Mercedes"];
     // [][]->[]<-[][]
     cars.splice(2,"Mazda");
 
-
 // Deleting Elements
     // [][][][][]<--
     numbers.pop();
